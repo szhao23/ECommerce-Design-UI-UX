@@ -1,11 +1,7 @@
-import Image from "next/image";
+import React from "react";
 
-export default function Home() {
-  return (
-    <main>
-      <div className="fixed inset-0 opacity-30">
-        
-      </div>
-    </main>
-  );
-}
+const Sidebar = () => {
+  return <div>Sidebar</div>;
+};
+
+export default Sidebar;
